@@ -15,6 +15,8 @@ Example running a test:
 
 # Running Test Cases using `test_runner.py`
 
+Note that this tool only works in linux/unix environments. It will run on WSL in windows.
+
 Usage: `python3 test_runner.py <exacutable location> <tests folder>`
 
 Example for project 1:
