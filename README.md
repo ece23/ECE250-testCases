@@ -13,6 +13,19 @@ diff (cat $testin | %testdriver) (cat $testout)
 Example running a test: 
 .\runTest.ps1 test1.in test1.out .\testDriver.exe
 
+# Running Test Cases using `test_runner.py`
+
+Note that this tool only works in linux/unix environments. It will run on WSL in windows.
+
+Usage: `python3 test_runner.py <exacutable location> <tests folder>`
+
+Example for project 0:
+
+```
+# cd into ECE250-testCases
+python3 test_runner.py ../playlistdriver p0
+```
+
 
 ### Owner
 Quinn Hodges
