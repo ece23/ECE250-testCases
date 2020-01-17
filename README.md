@@ -19,7 +19,7 @@ Note that this tool only works in linux/unix environments. It will run on WSL in
 
 Usage: `python3 test_runner.py <exacutable location> <tests folder>`
 
-Example for project 1:
+Example for project 0:
 
 ```
 # cd into ECE250-testCases
