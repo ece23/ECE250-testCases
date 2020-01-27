@@ -1,0 +1,56 @@
+enqueue_front 1
+enqueue_front 2
+enqueue_front 3
+enqueue_front 4
+enqueue_front 5
+enqueue_front 6
+size
+dequeue_front
+front 5
+back 1
+dequeue_back
+front 5
+back 2
+dequeue_front
+front 4
+back 2
+clear
+empty
+size
+enqueue_front 1
+enqueue_front 12
+enqueue_front 13
+enqueue_back 2
+enqueue_back 22
+enqueue_back 23
+enqueue_back 24
+size
+dequeue_front
+dequeue_front
+enqueue_front 67
+dequeue_back
+front 67
+back 23
+front 1
+back 2
+enqueue_front 100
+enqueue_front 101
+enqueue_front 102
+enqueue_front 103
+enqueue_front 104
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+size
+front 104
+back 104
+clear
+front 0
+back 0
+empty

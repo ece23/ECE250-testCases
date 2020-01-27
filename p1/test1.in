@@ -1,0 +1,11 @@
+empty
+enqueue_front 1
+front 1
+back 1
+print
+enqueue_front 2
+enqueue_front 3
+front 3
+back 1
+print
+
