@@ -10,7 +10,7 @@ def getTestFilesAsList(folder):
         ls = subprocess.run(['dir', folder], stdout=subprocess.PIPE)
     else:
         ls = subprocess.run(['ls', folder], stdout=subprocess.PIPE)
-    files = str(ls.stdout).lstrip("b'").rstrip("'").replace('\\t', ' ').replace('\\n', ' ').split()
+    files = str(ls.stdout).lstrip("b'").rstrip("'").replace('\\t', ' ').replace(NLC, ' ').split()
     outFiles = filter(lambda file: file[-4:] == '.out', files)
     inFiles = filter(lambda file: file[-3:] == '.in', files)
     testFiles = {'inFiles': [], 'outFiles': []}
