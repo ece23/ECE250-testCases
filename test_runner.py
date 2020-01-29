@@ -21,7 +21,8 @@ for i, v in enumerate(in_files):
             print("-------------------------------------")
             print("testing file: ", str(v, 'utf-8'))
             print("-------------------------------------")
-            subprocess.Popen(program, stdin=f, stdout=outfile)
-            test = subprocess.Popen(["diff", "out", folder+"/"+str(out_files[i], 'utf-8')], stdout=subprocess.PIPE)
-            print("difference: ") 
-            print(str(test.communicate()[0], 'utf-8'), end='')
+            with subprocess.Popen(program, stdin=f, stdout=outfile) as a:
+                pass
+            with subprocess.Popen(["diff", "out", folder+"/"+str(out_files[i], 'utf-8')], stdout=subprocess.PIPE) as test:
+                print("difference: ") 
+                print(str(test.communicate()[0], 'utf-8'), end='')
