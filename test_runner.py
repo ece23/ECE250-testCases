@@ -6,7 +6,6 @@ check_memory = False
 if sys.argv[1] == 'mem':
     check_memory = True
 
-print(check_memory)
 program = sys.argv[1+int(check_memory)]
 folder = sys.argv[2+int(check_memory)]
 
