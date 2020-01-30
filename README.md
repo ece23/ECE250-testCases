@@ -16,8 +16,15 @@ Example running a test:
 # Running Test Cases using `test_runner.py`
 
 Note that this tool only works in linux/unix environments. It will run on WSL in windows.
+If you want to check for memory leaks you need to install valgrind (already on eceubuntu)
 
-Usage: `python3 test_runner.py <exacutable location> <tests folder>`
+```
+sudo apt-get install valgrind
+```
+
+Usage: `python3 test_runner.py [mem] <exacutable location> <tests folder>`
+
+mem : checks your program for memory leaks using valgrind
 
 Example for project 0:
 
@@ -26,6 +33,11 @@ Example for project 0:
 python3 test_runner.py ../playlistdriver p0
 ```
 
+Example for project 1 with memory leak checking:
+```
+# cd into ECE250-testCases
+python3 test_runner.py mem ../dequedriver p1
+```
 
 ### Owner
 Quinn Hodges

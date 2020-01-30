@@ -2,8 +2,13 @@ import sys
 import subprocess
 import os
 
-program = sys.argv[1]
-folder = sys.argv[2]
+check_memory = False
+if sys.argv[1] == 'mem':
+    check_memory = True
+
+print(check_memory)
+program = sys.argv[1+int(check_memory)]
+folder = sys.argv[2+int(check_memory)]
 
 in_files = []
 with subprocess.Popen(["ls", folder],stdout=subprocess.PIPE) as ls:
@@ -26,3 +31,12 @@ for i, v in enumerate(in_files):
             with subprocess.Popen(["diff", "out", folder+"/"+str(out_files[i], 'utf-8')], stdout=subprocess.PIPE) as test:
                 print("difference: ") 
                 print(str(test.communicate()[0], 'utf-8'), end='')
+    
+    # You'll need valgrind installed for this (its alread on eceubuntu)
+    if check_memory:
+        with open(folder+"/"+str(v, 'utf-8'), 'r') as f:
+            with subprocess.Popen(["valgrind", program], stdin=f, stdout=subprocess.PIPE, stderr=subprocess.PIPE) as mem:
+                print("memory leak: ")
+                out = str(mem.communicate()[1], 'utf-8')
+                if not 'All heap blocks were freed -- no leaks are possible' in out:
+                    print(out)
