@@ -1,0 +1,22 @@
+success
+success
+failure
+success
+found FIRST ONE in 1
+found Second ONE in 0
+success
+found Third One in 1
+success
+success
+success
+success
+success
+found FIRST ONE For n = 4 in 3
+found Second One For n = 4 in 0
+found Third One for n = 4 in 1
+found Fourth One for n = 4 in 2
+success
+failure
+failure
+failure
+failure
