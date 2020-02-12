@@ -1,0 +1,110 @@
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_back 9
+enqueue_back 10
+enqueue_back 9
+enqueue_back 10
+enqueue_back 9
+enqueue_back 10
+enqueue_back 9
+enqueue_back 10
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_back 9
+enqueue_back 10
+enqueue_back 9
+enqueue_back 10
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_back 9
+enqueue_back 10
+enqueue_back 9
+enqueue_back 10
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_back 9
+enqueue_back 10
+enqueue_back 9
+enqueue_back 10
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_back 9
+enqueue_back 10
+enqueue_back 9
+enqueue_back 10
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_front 1
+enqueue_back 9
+enqueue_back 10
+enqueue_back 9
+enqueue_back 10
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back
+dequeue_back

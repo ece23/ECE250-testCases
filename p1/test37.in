@@ -1,0 +1,11 @@
+print
+enqueue_front 1
+print
+clear
+enqueue_front 3
+enqueue_front 2
+enqueue_front 1
+dequeue_front
+dequeue_back
+dequeue_front
+dequeue_back
