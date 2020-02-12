@@ -42,7 +42,7 @@ for testNumber in range(len(testFiles['inFiles'])):
                 print('Recieved: ', line)
                 print('Are equal: ', bool(expectedOutput == line))
                 print('Exiting...')
-    print(f'test {testNumber + 1} passed')
+    print(f'test {testFiles['inFiles'][testNumber]} passed')
 print('All tests passed')
 
 
