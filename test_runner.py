@@ -29,7 +29,7 @@ if sys.argv[1] == 'mem':
 program = sys.argv[1+int(check_memory)]
 folder = sys.argv[2+int(check_memory)]
 
-testFiles = getTestFilesAsList(testFolder)
+testFiles = getTestFilesAsList(folder)
 
 for testNumber in range(len(testFiles['inFiles'])):
     with open(testFiles['inFiles'][testNumber], 'r') as inFile:
@@ -47,7 +47,8 @@ for testNumber in range(len(testFiles['inFiles'])):
                 print('Recieved: ', line)
                 print('Are equal: ', bool(expectedOutput == line))
                 print('Exiting...')
-    print(f'test {testFiles['inFiles'][testNumber]} passed')
+    thing = testFiles['inFiles'][testNumber]
+    print(f'test {thing} passed')
     # You'll need valgrind installed for this (its alread on eceubuntu)
     if check_memory:
         with open(folder+"/"+str(v, 'utf-8'), 'r') as f:
