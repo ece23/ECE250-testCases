@@ -1,0 +1,36 @@
+tree size 0
+success
+success
+success
+success
+success
+tree size 5
+cne cnw ccenter csw cse
+success
+success
+success
+success
+tree size 9
+cne_ne cne_nw cne cne_sw cne_se cnw ccenter csw cse
+max 4000
+max 200
+max 400
+max 300
+min 100
+min 200
+min 400
+min 300
+success
+success
+success
+success
+tree size 13
+cne_ne cne_nw cne cne_sw cne_se cnw ccenter csw cse_ne cse_nw cse cse_sw cse_se
+min 100
+min 200
+min 50
+min 300
+total 10100
+total 200
+total 660
+total 300

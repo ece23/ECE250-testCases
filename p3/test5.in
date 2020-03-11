@@ -1,0 +1,36 @@
+size
+i ccenter;0.0;0.0;10;1;1
+i cne;1.0;1.0;100;1;1
+i cnw;-1.0;1.0;200;1;1
+i csw;-1.0;-1.0;300;1;1
+i cse;1.0;-1.0;400;1;1
+size
+print
+i cne_ne;1.5;1.5;1000;1;1
+i cne_nw;0.55;1.55;2000;1;1
+i cne_sw;0.56;0.56;3000;1;1
+i cne_se;1.57;0.57;4000;1;1
+size
+print
+q_max 0.0;0.0;NE;p
+q_max 0.0;0.0;NW;p
+q_max 0.0;0.0;SE;p
+q_max 0.0;0.0;SW;p
+q_min 0.0;0.0;NE;p
+q_min 0.0;0.0;NW;p
+q_min 0.0;0.0;SE;p
+q_min 0.0;0.0;SW;p
+i cse_ne;1.5;-0.5;80;1;1
+i cse_nw;0.6;-0.6;60;1;1
+i cse_sw;0.5;-1.7;70;1;1
+i cse_se;1.56;-1.2;50;1;1
+size
+print
+q_min 0.0;0.0;NE;p
+q_min 0.0;0.0;NW;p
+q_min 0.0;0.0;SE;p
+q_min 0.0;0.0;SW;p
+q_total 0.0;0.0;NE;p
+q_total 0.0;0.0;NW;p
+q_total 0.0;0.0;SE;p
+q_total 0.0;0.0;SW;p
